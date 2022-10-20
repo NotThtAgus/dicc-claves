@@ -17,6 +17,10 @@ body{
     font-family: "Parelinofu let";
     src: url(./assets/Parelinofu-Regular.ttf);
 }
+@font-face{
+    font-family: "7c";
+    src: url(./assets/C7c-Regular.ttf);
+}
 .texto{
     margin-top: 10px;
     font-size: 24px;
@@ -49,6 +53,11 @@ nav{
 
 #pare-text{
     font-family: 'Parelinofu let';
+    font-size: 36px;
+}
+#cruces-text{
+    font-family: '7c';
+    font-size: 36px;
 }
 
 .ingreso-texto{
