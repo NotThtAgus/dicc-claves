@@ -11,6 +11,7 @@ import { MorseComponent } from './morse/morse.component';
 import { CrucesComponent } from './cruces/cruces.component';
 import { RejillaComponent } from './rejilla/rejilla.component';
 import { FooterComponent } from './footer/footer.component';
+import { BanderaComponent } from './bandera/bandera.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { FooterComponent } from './footer/footer.component';
     CrucesComponent,
     RejillaComponent,
     FooterComponent,
+    BanderaComponent,
 
   ],
   imports: [
