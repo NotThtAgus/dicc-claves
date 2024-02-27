@@ -1,0 +1,19 @@
+.com{
+    margin: 5%;
+    text-align: center;
+}
+.not{
+    font-family: 'Silkscreen', cursive;
+    font-size: 24px;
+    width: 250px;
+    margin: auto;
+    margin-top: 35px;
+    background-color:#5B7FFC;
+    border: solid 1px black;
+    color:white;
+}
+.not:hover{
+    cursor: pointer;
+    background-color: #3660f7;
+    color: aliceblue;
+}

@@ -12,9 +12,5 @@ export class EntradaComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-  generar(valor:String){
-    console.log(valor);
-  }
-
+  
 }

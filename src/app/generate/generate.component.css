@@ -1,0 +1,22 @@
+.entrada{
+    margin-top: 35px;
+    margin-left: 70px;
+}
+.ingreso{
+    display:grid;
+}
+#generate{
+    font-family: 'Silkscreen', cursive;
+    font-size: 24px;
+    width: 250px;
+    margin: auto;
+    margin-top: 35px;
+    background-color:#5B7FFC;
+    border: solid 1px black;
+    color:white;
+}
+#generate:hover{
+    cursor: pointer;
+    background-color: #3660f7;
+    color: aliceblue;
+}

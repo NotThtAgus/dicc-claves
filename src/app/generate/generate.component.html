@@ -1,0 +1,11 @@
+<div class="ingreso">
+    <textarea spellcheck="false" type="text" name="" maxlength=400 class="ingreso-texto" #ingresar></textarea>
+    <button id="generate" (click)="generar(ingresar.value)">GENERAR</button>
+</div>
+<app-parelinofu [contenedor]="ingresar.value"></app-parelinofu>
+<app-murcielago></app-murcielago>
+<app-scoutdearg></app-scoutdearg>
+<app-morse></app-morse>
+<app-cruces [contenedor]="ingresar.value"></app-cruces>
+<app-bandera [contenedor]="ingresar.value"></app-bandera>
+<app-rejilla></app-rejilla>
